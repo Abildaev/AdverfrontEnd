@@ -1,0 +1,61 @@
+
+.flabServicesPage {
+  padding-top: 3.125rem;
+  padding-bottom: 0;
+}
+
+@media (max-width: 1199.98px) {
+  .flabServicesPage {
+    padding-top: 2.5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabServicesPage {
+    padding-top: 2.1875rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabServicesPage {
+    padding-top: 1.875rem;
+  }
+}
+
+
+.flabServices {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  background-size: contain;
+  position: relative;
+}
+
+@media (max-width: 1199.98px) {
+  .flabServices {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabServices {
+    padding-top: 2.1875rem;
+    padding-bottom: 2.1875rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabServices {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+  }
+}
+
+.flabServices__btn {
+  max-width: 12.1875rem;
+  width: 100%;
+  min-height: 2.9375rem;
+  font-size: 1rem;
+  margin: auto;
+  margin-top: 1.25rem;
+}

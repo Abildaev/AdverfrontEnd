@@ -1,0 +1,532 @@
+
+.flabSimilarWrap {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+@media (max-width: 1199.98px) {
+  .flabSimilarWrap {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabSimilarWrap {
+    padding-top: 1.5625rem;
+    padding-bottom: 1.5625rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabSimilarWrap {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+}
+
+.flabSimilarWrap--flabDevelopment {
+  padding-bottom: 0;
+}
+
+
+.flabCont p {
+  margin-bottom: 1.5625rem;
+  font-size: 1.125rem;
+  line-height: 1.60;
+}
+
+@media (max-width: 1199.98px) {
+  .flabCont p {
+    font-size: 1.0625rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabCont p {
+    font-size: 1rem;
+  }
+}
+
+.flabCont__subCaption {
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-family: Stolzl;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 1199.98px) {
+  .flabCont__subCaption {
+    font-size: 1.1875rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabCont__subCaption {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabCont__subCaption {
+    font-size: 1.0625rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flabCont__subCaption {
+    font-size: 1rem;
+  }
+}
+
+.flabCont__img {
+  max-width: 27.5rem;
+  width: 100%;
+  position: relative;
+  margin-bottom: 3.125rem;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 20rem;
+    height: 25.625rem;
+    border: solid 5.7px #fc3f69;
+    z-index: -1;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+  }
+
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabCont__img:before {
+    display: none;
+  }
+}
+
+.flabCont {
+  .flabImgRight {
+    float: right;
+    margin-left: 2.5rem;
+  }
+
+  .flabImgLeft {
+    float: left;
+    margin-right: 2.5rem;
+  }
+
+  ul li {
+    list-style-type: none;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: -1.25rem;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0.3125rem;
+      height: 0.3125rem;
+      background-color: #fc3f69;
+      border-radius: 100%;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabCont .flabImgRight {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 1.875rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabCont .flabImgLeft {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 1.875rem;
+  }
+}
+
+
+.flabCount {
+  padding-top: 1.25rem;
+  padding-bottom: 3.125rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1199.98px) {
+  .flabCount {
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabCount {
+    padding-bottom: 2.1875rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabCount {
+    padding-bottom: 1.875rem;
+  }
+}
+
+.flabCount__caption {
+  font-family: "Stolzl";
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1199.98px) {
+  .flabCount__caption {
+    font-size: 1.1875rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabCount__caption {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabCount__caption {
+    font-size: 1.0625rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flabCount__caption {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+.flabCount__list {
+  margin: 0;
+  padding: 0;
+  columns: 2;
+  padding-top: 2.5rem;
+  counter-reset: item;
+  list-style-type: decimal-leading-zero;
+
+  li {
+    list-style-type: none;
+    position: relative;
+    min-height: 4.25rem;
+    margin-bottom: 1.875rem;
+    padding-left: 5rem;
+    font-family: "Stolzl";
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.22;
+    break-inside: avoid;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+
+    &:before {
+      content: counter(item, decimal-leading-zero) " ";
+      counter-increment: item;
+      position: absolute;
+      left: 0;
+      max-width: 4.25rem;
+      width: 100%;
+      min-height: 4.25rem;
+      background-color: #cf050d;
+      color: #fff;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-transform: uppercase;
+      font-family: Stolzl;
+      font-size: 1.875rem;
+      font-weight: 500;
+      margin-right: 1.875rem;
+    }
+
+    &:nth-child(2n):before {
+      background-color: #005188;
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .flabCount__list {
+    padding-top: 1.875rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabCount__list {
+    padding-top: 1.875rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabCount__list {
+    padding-top: 1.5625rem;
+    columns: 1;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .flabCount__list li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabCount__list li {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabCount__list li {
+    font-size: 0.8125rem;
+  }
+}
+
+.flabCount__desc {
+  height: 4.25rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+
+  p {
+    font-family: "Stolzl";
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.22;
+    margin: 0;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .flabCount__desc p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabCount__desc p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabCount__desc p {
+    font-size: 0.8125rem;
+  }
+}
+
+.flabCount--flabCountBG {
+  padding-top: 3.125rem;
+  margin-bottom: 3.125rem;
+}
+
+@media (max-width: 991.98px) {
+  .flabCount--flabCountBG {
+    margin-bottom: 1.875rem;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .flabCount--flabCountBG {
+    padding-top: 2.5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabCount--flabCountBG {
+    padding-top: 2.1875rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabCount--flabCountBG {
+    padding-top: 1.875rem;
+  }
+}
+
+.flabCount--flabDevelopment {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  margin-top: 6.25rem;
+}
+
+@media (max-width: 991.98px) {
+  .flabCount--flabDevelopment {
+    margin-top: 1.875rem;
+  }
+}
+
+.flabCount__ps {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+
+
+.flabDevelopment__order {
+  min-height: 28.4375rem;
+  background-size: conver;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flabDevelopment__order:before {
+    display: block;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flabDevelopment__order {
+    min-height: 18.75rem;
+  }
+}
+
+.flabDevelopment__btn {
+  max-width: 11.375rem;
+  width: 100%;
+  min-height: 3.125rem;
+  font-family: "Stolzl";
+  font-size: 0.875rem;
+
+  &:hover {
+    color: #ec376c;
+
+    &:after {
+      opacity: 1;
+      height: 260%;
+    }
+
+    span {
+      &:before, &:after {
+        opacity: 1;
+        transform: rotate(45deg);
+      }
+
+      &:before {
+        left: 75px;
+        top: 0;
+      }
+
+      &:after {
+        right: 75px;
+        bottom: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flabDevelopment__btn {
+    margin: 0 auto;
+  }
+}
+
+.flabDevelopment__orderCaptionWrap {
+  max-width: 50%;
+  width: 100%;
+  position: relative;
+}
+
+@media (max-width: 767.98px) {
+  .flabDevelopment__orderCaptionWrap {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flabDevelopment__orderCaptionWrap {
+    max-width: 100%;
+  }
+}
+
+.flabDevelopment__orderCaption {
+  font-size: 1.875rem;
+  margin: 0;
+  padding-bottom: 0.9375rem;
+
+  span {
+    font-family: "Stolzl";
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .flabDevelopment__orderCaption {
+    font-size: 1.5625rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabDevelopment__orderCaption {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flabDevelopment__orderCaption {
+    font-size: 1.0625rem;
+    color: #fff;
+    text-align: center;
+  }
+}
+
+
+
+
+.flabMainCaptionWrap__caption--whiteCaption {
+  color: #fff;
+}
+
+.flabMainCaptionWrap__caption--thinCaption {
+  font-family: "StolzlBook";
+  font-weight: 400;
+
+  span {
+    color: #fc3f6f;
+    font-family: "Stolzl";
+    font-weight: 500;
+  }
+}

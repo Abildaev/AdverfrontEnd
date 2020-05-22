@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@import "parts/fonts";
+@import "parts/variables";
+@import "parts/media";
+@import "parts/default";
+
+
+@import "components/mainPage/flabCurrent";
+@import "components/mainPage/flabTextPart";
+@import "components/mainPage/flabAdventages";
+@import "components/mainPage/flabRewards";
+@import "components/mainPage/flabTeam";
+@import "components/mainPage/flabParners";
+@import "components/mainPage/flabReviews";
+
+@import "components/aboutPage/flabAbout";
+@import "components/aboutPage/flabSecurities";
+@import "components/aboutPage/flabme";
+
+
+@import "components/contactPage/flabContacts";
+
+@import "components/services/servicesPage";
+@import "components/services/oneService";
+
+@import "components/rest";
+@import "components/flabBreadCrumbs";
+@import "components/flabCard";
+@import "components/footer";
+
+
+
+
+
+
+
+
+
+

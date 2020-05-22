@@ -1,0 +1,89 @@
+.flabReviews {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  position: relative;
+  background-size: contain;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2.5rem;
+    background-image: url("../images/reviews/reviewsBg.png");
+    width: 19.9375rem;
+    height: 19.1875rem;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .flabReviews {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabReviews {
+    padding-top: 2.1875rem;
+    padding-bottom: 2.1875rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabReviews {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+  }
+}
+
+.flabReviews__userWrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  min-height: 5.625rem;
+  margin-bottom: 1.5625rem;
+}
+
+.flabReviews__avatar {
+  max-width: 5.6875rem;
+  width: 100%;
+  min-height: 5.6875rem;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: 1.875rem;
+
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.flabReviews__userName p {
+  line-height: 1.2;
+  font-size: 1rem;
+  margin: 0;
+}
+
+@media (max-width: 767.98px) {
+  .flabReviews__userName p {
+    font-size: 0.875rem;
+  }
+}
+
+.flabReviews__comment p {
+  line-height: 1.25;
+  margin: 0;
+}
+
+@media (max-width: 767.98px) {
+  .flabReviews__comment p {
+    font-size: 0.9375rem;
+  }
+}

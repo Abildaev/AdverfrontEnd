@@ -1,0 +1,261 @@
+.flabFooter {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  min-height: 20.4375rem;
+  background-color: #111111;
+  overflow: hidden;
+}
+
+.flabFooter__topNav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 17.375rem;
+}
+
+.flabFooter__navWrap {
+  padding: 0;
+  margin: 0;
+  columns: 2;
+
+  li {
+    list-style-type: none;
+    margin-bottom: 0.625rem;
+
+    a {
+      text-decoration: none;
+      font-size: 1rem;
+      color: #b8b8b8;
+      transition: all .3s;
+      text-transform: uppercase;
+
+      &:hover {
+        color: #fc3f69;
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabFooter__navWrap {
+    columns: 1;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .flabFooter__navWrap li {
+    margin-bottom: 0.3125rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabFooter__navWrap li a {
+    font-size: 0.9375rem;
+  }
+}
+
+.flabFooter__logo {
+  text-align: center;
+
+  a {
+    width: 100%;
+    max-width: 9.3125rem;
+    display: block;
+    margin: 0 auto;
+
+    svg, img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabFooter__logo {
+    padding: 1.875rem 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flabFooter__logo {
+    padding-bottom: 0;
+  }
+}
+
+.flabFooter__desc {
+  padding-top: 0.3125rem;
+
+  p {
+    color: #b8b8b8;
+    margin: 0;
+    font-size: 0.875rem;
+    padding: 0 2.1875rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabFooter__desc p {
+    padding: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flabFooter__topContent {
+    text-align: center;
+    padding-top: 1.25rem;
+  }
+}
+
+.flabFooter__caption {
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: 'Stolzl';
+  position: relative;
+  margin-bottom: 1.625rem;
+
+  &:after {
+    content: '';
+    position: absolute;
+    height: 0.0625rem;
+    width: 4.375rem;
+    background-color: #fc3f69;
+    left: 0;
+    bottom: -0.125rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabFooter__caption {
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flabFooter__caption {
+    display: inline-block;
+  }
+}
+
+.flabFooter__contInfo {
+  position: relative;
+  padding-left: 1.875rem;
+  margin-bottom: 0.9375rem;
+
+  i {
+    position: absolute;
+    left: 0;
+    color: #b8b8b8;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: #b8b8b8;
+  }
+
+  p {
+    display: block;
+    text-decoration: none;
+    color: #b8b8b8;
+    margin: 0;
+  }
+
+  a {
+    margin-bottom: 0.6875rem;
+    transition: all .3s;
+
+    &:hover {
+      color: #fc3f69;
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .flabFooter__contInfo {
+    margin-bottom: 0.3125rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flabFooter__contInfo {
+    padding: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flabFooter__contInfo i {
+    display: none;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .flabFooter__contInfo a {
+    margin-bottom: 0.25rem;
+  }
+}
+
+.flabFooter__bottomNav {
+  border-top: 0.0625rem solid #454545;
+  min-height: 3.125rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media (max-width: 767.98px) {
+  .flabFooter__bottomNav {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0.9375rem 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabFooter__copy {
+    padding-bottom: 0.625rem;
+    text-align: center;
+  }
+}
+
+.flabFooter__copy p {
+  margin: 0;
+  color: #b8b8b8;
+
+  span {
+    color: #fff;
+  }
+}
+
+.flabFooter__social ul {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 1.5625rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    a {
+      color: #ffffff;
+      transition: all .3s;
+
+      &:hover {
+        color: #fc3f69;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@import url(../fonts/fontawesome5/web-fonts-with-css/css/fontawesome-all.min.css);
+
+@import url(../fonts/icons/css/font.css);
+
+@font-face {
+  font-family: "Stolzl";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Stolzl/Stolzl-Light/Stolzl-Light.eot");
+  src: url("../fonts/Stolzl/Stolzl-Light/Stolzl-Light-1.eot") format("embedded-opentype"), url("../fonts/Stolzl/Stolzl-Light/Stolzl-Light.woff") format("woff"), url("../fonts/Stolzl/Stolzl-Light/Stolzl-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Stolzl";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Stolzl/Stolzl-Regular/Stolzl-Regular.eot");
+  src: url("../fonts/Stolzl/Stolzl-Regular/Stolzl-Regular-1.eot") format("embedded-opentype"), url("../fonts/Stolzl/Stolzl-Regular/Stolzl-Regular.woff") format("woff"), url("../fonts/Stolzl/Stolzl-Regular/Stolzl-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Stolzl";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Stolzl/Stolzl-Medium/Stolzl-Medium.eot");
+  src: url("../fonts/Stolzl/Stolzl-Medium/Stolzl-Medium-1.eot") format("embedded-opentype"), url("../fonts/Stolzl/Stolzl-Medium/Stolzl-Medium.woff") format("woff"), url("../fonts/Stolzl/Stolzl-Medium/Stolzl-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "StolzlBook";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Stolzl/Stolzl-Book/Stolzl-Book.eot");
+  src: url("../fonts/Stolzl/Stolzl-Book/Stolzl-Book-1.eot") format("embedded-opentype"), url("../fonts/Stolzl/Stolzl-Book/Stolzl-Book.woff") format("woff"), url("../fonts/Stolzl/Stolzl-Book/Stolzl-Book.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Stolzl";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/Stolzl/Stolzl-Bold/Stolzl-Bold.eot");
+  src: url("../fonts/Stolzl/Stolzl-Bold/Stolzl-Bold-1.eot") format("embedded-opentype"), url("../fonts/Stolzl/Stolzl-Bold/Stolzl-Bold.woff") format("woff"), url("../fonts/Stolzl/Stolzl-Bold/Stolzl-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bell";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Bell/BellMT/BellMT.eot");
+  src: url("../fonts/Bell/BellMT/BellMT-1.eot") format("embedded-opentype"), url("../fonts/Bell/BellMT/BellMT.woff") format("woff"), url("../fonts/Bell/BellMT/BellMT.ttf") format("truetype");
+}

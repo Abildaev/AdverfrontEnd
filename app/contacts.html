@@ -1,0 +1,309 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>adverNEW</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="images\favicon\apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images\favicon\apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images\favicon\apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <!-- build:css styles/vendor.css -->
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="/node_modules/swiper/css/swiper.min.css" type="text/css" />
+  <!-- endbuild -->
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+  <!-- build:js scripts/modernizr.js -->
+  <script src="scripts/modernizr.js"></script>
+  <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+  <!-- endbuild -->
+</head>
+
+<body>
+  <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+
+    <!-- flabWrapper -->
+  <div class="flabWrapper">
+
+    <!-- flabMmenu -->
+    <div class="flabMmenu"></div>
+    <!-- flabMmenu end -->
+
+    <!-- flabContent -->
+    <div class="flabContent">
+  
+      <!-- flabBreadCrumbs -->
+      <div class="flabBreadCrumbs" id="goal">
+        <div class="container">
+          <ul>
+            <li class="--active">
+              <a href="index.html">Главная</a>
+            </li>
+            <li>Контакты</li>
+          </ul>
+        </div>
+      </div>
+      <!-- flabBreadCrumbs end -->
+
+      <!-- flabContacts -->
+      <div class="flabContacts">
+        <div class="container">
+          <div class="flabMainCaptionWrap">
+            <h2 class="flabMainCaptionWrap__caption flabMainCaptionWrap__caption--thinCaption">
+              <span>Здравствуйте!</span> Чем Мы Можем
+              <br> Вам Помочь?</h2>
+          </div>
+          <p class="flabContacts__desc">Компания
+            <b>Adver Group</b> работает с понедельника по пятницу с 9:00 до 18:00. Свяжитесь с нами по телефонам или
+            закажите
+            звонок на сайте.</p>
+          <div class="flabContacts__item">
+            <i class="fal fa-mobile"></i>
+            <a href="tel:996555472819">+996 555 47 28 19</a>
+            <a href="tel:996312591747">+996 312 59 17 47</a>
+          </div>
+          <p class="flabContacts__desc">Мы открыты для общения в социальных сетях.
+            <br> Вступайте в наши группы, подписывайтесь на рассылку по email чтобы не пропустить регулярные розыгрыши,
+            акции,
+            скидки. </p>
+          <div class="flabContacts__item">
+            <i class="fal fa-envelope"></i>
+            <a href="office@adver.kg:">office@adver.kg</a>
+          </div>
+          <p class="flabContacts__desc"> Мы также ждём гостей в уютном, удобно расположенном офисе по адресу</p>
+          <div class="flabContacts__item">
+            <i class="far fa-map-marker-alt"></i>
+            <p>г.Бишкек, ул. Малдыбаева 73</p>
+          </div>
+          <p class="flabContacts__desc">Обращайтесь в Adver Group, вы останетесь довольны результатом работы, ценами и
+            уровнем обслуживания!</p>
+        </div>
+        <div id="map"></div>
+        <div class="flabContacts__form" style="background-image: url('images/sectionBG.jpg');">
+          <div class="container">
+            <p class="flabContacts__desc">Вы также можете заполнить форму обратной связи. Менеджер перезвонит вам в
+              течение часа, или в любое удобное указанное
+              вами время.</p>
+            <form action="">
+              <!-- Hidden Required Fields -->
+              <input type="hidden" name="project_name" value="Adver Group">
+              <input type="hidden" name="admin_email" value="250296a@gmail.com">
+              <input type="hidden" name="form_subject" value="call back">
+              <!-- END Hidden Required Fields -->
+              <div class="row">
+                <div class="col-xl-5 col-lg-6 col-md-6">
+                  <input type="text" placeholder="Ваше Имя" class="flabContacts__input">
+                  <input type="text" placeholder="Ваш номер телефона" class="flabContacts__input">
+                  <input type="text" placeholder="Ваш email" class="flabContacts__input">
+                </div>
+                <div class="col-xl-5 col-lg-6 col-md-6">
+                  <textarea placeholder="Чем можем вам помочь?" name="" id="" class="flabContacts__textarea"></textarea>
+                  <button type="submit" class="flabContacts__button flabBtn flabBtnPouringOut">
+                    <span>отправить</span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- flabContacts end -->
+
+    </div>
+    <!-- flabContent end -->
+
+    <!-- footer -->
+    <div class="flabFooter">
+      <div class="container">
+        <div class="flabFooter__topNav">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-12">
+              <div class="flabFooter__logo">
+                <a href="#">
+
+                  <img src="images\svg\logoFooter.svg" alt="">
+
+                </a>
+                <div class="flabFooter__desc">
+                  <p>Крупный рекламный холдинг на рынке Кыргызстана, который предоставляет широкий спектр услуг в
+                    сфере
+                    рекламы.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+              <div class="flabFooter__topContent">
+                <h2 class="flabFooter__caption">МЕНЮ</h2>
+                <ul class="flabFooter__navWrap">
+                  <li>
+                    <a href="index.html">Главная</a>
+                  </li>
+                  <li>
+                    <a href="about.html">О компании</a>
+                  </li>
+                  <li>
+                    <a href="services.html">Услуги</a>
+                  </li>
+                  <!-- <li>
+                    <a href="#">Наши работы</a>
+                  </li> -->
+                  <!-- <li>
+                    <a href="#">Партнеры</a>
+                  </li> -->
+                  <!-- <li>
+                    <a href="#">Вакансии</a>
+                  </li> -->
+                  <li>
+                    <a href="contacts.html">Контакты</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+              <div class="flabFooter__topContent">
+                <h2 class="flabFooter__caption">КОНТАКТЫ</h2>
+                <div class="flabFooter__contInfo">
+                  <i class="fal fa-map-marker-alt"></i>
+                  <p>г.Бишкек, ул. Малдыбаева 73</p>
+                </div>
+                <div class="flabFooter__contInfo">
+                  <i class="fal fa-envelope"></i>
+                  <a href="mailto:office@adver.kg">office@adver.kg</a>
+                </div>
+                <div class="flabFooter__contInfo">
+                  <i class="fal fa-mobile"></i>
+                  <a href="mailto:996555472819">+996 555 47 28 19</a>
+                  <a href="mailto:996312591747">+996 312 59 17 47</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flabFooter__bottomNav">
+          <div class="flabFooter__copy">
+            <p>&copy; 2015 Все права принадлежат
+              <span>Adver Group</span>
+            </p>
+          </div>
+          <div class="flabFooter__social">
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-vk"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer end -->
+
+    <!-- flabThanks -->
+    <div class="flabThanks-wrap">
+      <div id="flabThanks" class="flabThanks" style="background-image: url('images/sectionBg.jpg');">
+        <div class="flabThanks__check">
+          <i class="fas fa-check"></i>
+        </div>
+        <h2 class="flabThanks__caption">Спасибо :)</h2>
+        <p>Ваше сообшение отправлено</p>
+      </div>
+    </div>
+    <!-- flabThanks end -->
+
+    <!-- flabCallBack -->
+    <div class="flabCallBack" id="callBackForm" style="background-image: url('images/sectionBG.jpg'); display: none;">
+      <h2 class="flabCallBack__caption">Заказать обратный звонок</h2>
+      <div class="flabCallBack__form">
+        <form action="">
+          <!-- Hidden Required Fields -->
+          <input type="hidden" name="project_name" value="Adver Group">
+          <input type="hidden" name="admin_email" value="250296a@gmail.com">
+          <input type="hidden" name="form_subject" value="call back">
+          <!-- END Hidden Required Fields -->
+          <div class="flabCallBack__inputWrap">
+            <input id="input1" type="text" class="flabCallBack__input" name="Имя" placeholder="Имя" required>
+            <label for="input1" class="flabCallBack__inputIcon">
+              <i class="fal fa-user"></i>
+            </label>
+          </div>
+          <div class="flabCallBack__inputWrap">
+            <input id="input2" type="text" class="flabCallBack__input" placeholder="телефон" name="телефон" required>
+            <label for="input2" class="flabCallBack__inputIcon">
+              <i class="fal fa-mobile"></i>
+            </label>
+          </div>
+          <button class="flabCallBack__btn flabBtn ">Отправить заявку</button>
+        </form>
+        <p>Оставьте ваш номер телефона, и мы вам
+          <br> перезвоним в ближайшее время</p>
+      </div>
+    </div>
+    <!-- flabCallBack end -->
+
+  </div>
+  <!-- flabWrapper end -->
+
+ 
+
+
+  <!-- build:js scripts/vendor.js -->
+  <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/node_modules/swiper/js/swiper.min.js"></script>
+  <!-- endbuild -->
+  <!-- build:js scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <script src="scripts/swiper.js"></script>
+  <script type="text/javascript">
+    var map;
+    DG.then(function () {
+      map = DG.map('map', {
+        center: [42.837413, 74.598018],
+        scrollWheelZoom: false,
+        zoom: 17
+      });
+
+      var myIcon = L.icon({
+        iconUrl: 'images/contacts/marker.svg',
+        iconSize: [40, 53],
+      });
+
+      DG.marker([42.837400, 74.598018], {
+        icon: myIcon
+      }).addTo(map).bindPopup('Кыргызстан, г.Бишкек, ул. Малдыбаева 73"');
+    });
+  </script>
+  <!-- endbuild -->
+</body>
+
+</html>

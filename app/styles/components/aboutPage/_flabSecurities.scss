@@ -1,0 +1,51 @@
+
+
+
+.flabSecurities {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  position: relative;
+  background-size: contain;
+}
+
+@media (max-width: 1199.98px) {
+  .flabSecurities {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabSecurities {
+    padding-top: 2.1875rem;
+    padding-bottom: 2.1875rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabSecurities {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+  }
+}
+
+.flabSecurities__subTittle {
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: #303d48;
+  padding-bottom: 3.125rem;
+  margin: 0;
+}
+
+@media (max-width: 991.98px) {
+  .flabSecurities__subTittle {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabSecurities__subTittle {
+    padding-bottom: 1.875rem;
+  }
+}

@@ -1,0 +1,26 @@
+body {
+  font-family: "StolzlBook";
+}
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.flabWrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+
+.flabContent {
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  display: none;
+}

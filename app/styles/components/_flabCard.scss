@@ -1,0 +1,237 @@
+
+
+.flabCard {
+  outline: none;
+}
+
+.flabCard__cardMove {
+  width: 100%;
+  height: 100%;
+  perspective: 800px;
+}
+
+.flabCard__itemCard {
+  max-width: 22.5rem;
+  width: 100%;
+  margin-bottom: 1.875rem;
+
+  &:hover {
+    .surfacing--caption--captionWorks, .surfacing__descWork--subCaption {
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabCard__itemCard {
+    margin: 0 auto;
+    margin-bottom: 1.875rem;
+  }
+}
+
+.flabCard__cardContent {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  max-width: 22.5rem;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  min-height: 27.625rem;
+
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .flabCard__cardContent {
+    min-height: 25rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabCard__cardContent {
+    min-height: 26.875rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabCard__cardContent {
+    min-height: 26.25rem;
+  }
+}
+
+.flabCard__cardContent--worksContent {
+  min-height: auto;
+  position: relative;
+
+  &:before {
+    transition: all .3s;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(65deg, rgba(252, 63, 105, 0.7), rgba(54, 99, 159, 0.7) 49%, rgba(79, 228, 228, 0.7), rgba(79, 228, 228, 0.7));
+    opacity: 0;
+  }
+
+  &:hover {
+    box-shadow: 0px 23px 18px 0 rgba(0, 0, 0, 0.34);
+
+    &:before {
+      opacity: 1;
+    }
+  }
+}
+
+.flabCard__img {
+  width: 100%;
+  max-width: 100%;
+
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.flabCard__cardDesc {
+  text-align: center;
+  max-width: 18.125rem;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 1.5625rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  overflow: hidden;
+  height: 12.5rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+
+  a {
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: 'Stolzl';
+    color: #000000;
+    margin-bottom: 0.9375rem;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    transition: all .3s;
+
+    &:hover {
+      color: #ec376c;
+    }
+  }
+
+  p {
+    font-size: 1rem;
+    color: #000000;
+    margin: 0;
+    line-height: 1.21;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .flabCard__cardDesc {
+    max-width: 100%;
+    height: 11.875rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabCard__cardDesc {
+    height: 10.625rem;
+  }
+}
+
+@media (max-width: 361.98px) {
+  .flabCard__cardDesc {
+    height: 11.875rem;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .flabCard__cardDesc a {
+    font-size: 1.0625rem;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .flabCard__cardDesc p {
+    font-size: 0.9375rem;
+  }
+}
+
+.flabCard__cardWrapLink {
+  position: absolute;
+  right: 0.9375rem;
+  bottom: 0.4375rem;
+  font-style: italic;
+  overflow: hidden;
+  padding-bottom: 0.125rem;
+}
+
+.flabCard__cardLink {
+  color: #b8b8b8;
+  font-size: 1rem;
+  transition: all .3s;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  &:hover {
+    color: #ec376c;
+    text-decoration: none;
+
+    &:after {
+      left: 0;
+    }
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    height: 0.125rem;
+    background-color: #fc3f69;
+    width: 100%;
+    left: 0;
+    bottom: -0.125rem;
+    left: -100%;
+    transition: all .5s;
+  }
+}
+
+.flabCard--portfolioItem {
+  max-width: 31%;
+  width: 100%;
+}
+
+@media (max-width: 1199.98px) {
+  .flabCard--portfolioItem {
+    max-width: 31.1%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabCard--portfolioItem {
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabCard--portfolioItem {
+    max-width: 47%;
+  }
+}
+
+@media (max-width: 530px) {
+  .flabCard--portfolioItem {
+    max-width: 100%;
+  }
+}

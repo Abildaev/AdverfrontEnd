@@ -1,0 +1,199 @@
+.flabCurrent {
+  padding-top: 3.4375rem;
+  padding-bottom: 1.875rem;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+
+  .swiper-slide {
+    max-width: 34.375rem;
+    transition: all .3s;
+    text-decoration: none;
+    position: relative;
+
+    &:before {
+      transition: all .3s;
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: linear-gradient(65deg, rgba(252, 63, 105, 0.7), rgba(54, 99, 159, 0.7) 49%, rgba(79, 228, 228, 0.7), rgba(79, 228, 228, 0.7));
+      opacity: 0;
+    }
+
+    &:hover {
+      box-shadow: 0px 23px 18px 0 rgba(0, 0, 0, 0.34);
+
+      .surfacing--caption, .surfacing__descWork, &:before {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .flabCurrent {
+    padding-top: 2.5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabCurrent {
+    padding-top: 2.1875rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabCurrent {
+    padding-top: 1.875rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabCurrent .swiper-slide {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabCurrent .swiper-slide:hover {
+    box-shadow: 0px 13px 18px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+.flabMainCaptionWrap {
+  display: inline-block;
+}
+
+@media (max-width: 575.98px) {
+  .flabMainCaptionWrap {
+    text-align: center;
+    display: block;
+  }
+}
+
+.flabMainCaptionWrap__caption {
+  text-transform: uppercase;
+  color: #002738;
+  font-family: 'Stolzl';
+  font-weight: 500;
+  font-size: 2.5rem;
+  position: relative;
+  margin: 0;
+  margin-bottom: 4.375rem;
+  line-height: 1;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 8.375rem;
+    height: 0.125rem;
+    bottom: -1.25rem;
+    left: 0;
+    background-color: #fc3f69;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .flabMainCaptionWrap__caption {
+    font-size: 2.1875rem;
+    margin-bottom: 3.4375rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabMainCaptionWrap__caption {
+    font-size: 1.875rem;
+    margin-bottom: 3.125rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabMainCaptionWrap__caption {
+    font-size: 1.5625rem;
+    margin-bottom: 2.8125rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flabMainCaptionWrap__caption {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .flabMainCaptionWrap__caption:after {
+    width: 7.1875rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabMainCaptionWrap__caption:after {
+    width: 6.25rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabMainCaptionWrap__caption:after {
+    width: 5.3125rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flabMainCaptionWrap__caption:after {
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.flabSlider {
+  width: 100%;
+  height: 100%;
+  padding: 0 0 3.75rem;
+}
+
+.flabSlider--currentSlider {
+  padding: 0 1.25rem 3.75rem;
+
+  .swiper-button-next {
+    right: 1.25rem;
+  }
+
+  .swiper-button-prev {
+    right: 3.75rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabSlider--currentSlider {
+    padding: 0 0 3.75rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flabSlider--currentSlider {
+    padding: 0 0 3.125rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabSlider--currentSlider .swiper-button-next {
+    right: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabSlider--currentSlider .swiper-button-prev {
+    right: 2.5rem;
+  }
+}

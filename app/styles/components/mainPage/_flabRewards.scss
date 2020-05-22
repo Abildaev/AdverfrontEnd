@@ -1,0 +1,69 @@
+.flabRewards {
+  padding-top: 3.125rem;
+  padding-bottom: 1.875rem;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1199.98px) {
+  .flabRewards {
+    padding-top: 2.5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabRewards {
+    padding-top: 2.1875rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabRewards {
+    padding-top: 1.875rem;
+  }
+}
+
+.flabRewards__img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.flabRewards__desc {
+  min-height: 7.25rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 17.5rem;
+  margin: 0 auto;
+
+  p {
+    margin: 0;
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabRewards__desc {
+    width: 100%;
+    max-width: 100%;
+    padding: 0.625rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .flabRewards__desc p {
+    font-size: 1.0625rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .flabRewards__desc p {
+    font-size: 1rem;
+  }
+}

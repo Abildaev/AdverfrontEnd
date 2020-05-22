@@ -1,0 +1,58 @@
+
+.flabBreadCrumbs {
+  min-height: 2.5rem;
+  background-color: #fbfbfb;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      color: #303d48;
+      position: relative;
+      margin-left: 1.875rem;
+
+      &:before {
+        position: absolute;
+        content: '';
+        top: 50%;
+        transform: translateY(-50%);
+        left: -1.25rem;
+        width: 0.3125rem;
+        height: 0.3125rem;
+        background-color: #303d48;
+        border-radius: 100%;
+      }
+
+      &:first-child {
+        cursor: no-drop;
+        margin-left: 0;
+
+        &:before {
+          display: none;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: #303d48;
+        transition: all .3s;
+
+        &:hover {
+          color: #fc3f6f;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .flabBreadCrumbs ul {
+    text-align: center;
+  }
+}
